@@ -1,2 +1,1 @@
 # reshiramDOF
-simona es negra
