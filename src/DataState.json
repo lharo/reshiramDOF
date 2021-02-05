@@ -1,0 +1,176 @@
+{  
+    "0": {  
+        "id":      0,   
+        "name":    "Estado",   
+        "Color":   "Accemt" 
+    },
+    "1": {  
+        "id":      1,   
+        "name":    "Baja California",   
+        "Color":   100 
+    },
+    "2": {  
+        "id":      2,   
+        "name":    "Sonora",   
+        "Color":   100 
+    },
+    "3": {  
+        "id":      3,   
+        "name":    "Chihuahua",   
+        "Color":   100 
+    },
+    "4": {  
+        "id":      4,   
+        "name":    "Nuevo León",   
+        "Color":   100 
+    },
+    "5": {  
+        "id":      5,   
+        "name":    "Tamaulipas",   
+        "Color":   100 
+    },
+    "6": {  
+        "id":      6,   
+        "name":    "Sinaloa",   
+        "Color":   100 
+    },
+    "7": {  
+        "id":      7,   
+        "name":    "Nayarit",   
+        "Color":   100 
+    },
+    "8": {  
+        "id":      8,   
+        "name":    "Durango",   
+        "Color":   100 
+    },
+    "9": {  
+        "id":      9,   
+        "name":    "Zacatecas",   
+        "Color":   100 
+    },
+    "10": {  
+        "id":      10,   
+        "name":    "Jalisco",   
+        "Color":   400 
+    },
+    "11": {  
+        "id":      11,   
+        "name":    "Colima",   
+        "Color":   400 
+    },
+
+    "12": {  
+        "id":      12,   
+        "name":    "Tlaxcala",   
+        "Color":   400 
+    },
+
+    "13": {  
+        "id":      13,   
+        "name":    "Aguascalientes",   
+        "Color":   400 
+    },
+
+    "14": {  
+        "id":      14,   
+        "name":    "San Luis Potosi ",   
+        "Color":   400 
+    },
+
+    "15": {  
+        "id":      15,   
+        "name":    "Puebla",   
+        "Color":   400 
+    },
+
+    "16": {  
+        "id":      16,   
+        "name":    "Guanajuato",   
+        "Color":   400 
+    },
+
+    "17": {  
+        "id":      17,   
+        "name":    "Querétaro",   
+        "Color":   400 
+    },
+
+    "18": {  
+        "id":      18,   
+        "name":    "Hidalgo",   
+        "Color":   400 
+    },
+
+    "19": {  
+        "id":      19,   
+        "name":    "Morelos",   
+        "Color":   400 
+    },
+
+    "20": {  
+        "id":      20,   
+        "name":    "Estado de México",   
+        "Color":   400 
+    },
+    "21": {  
+        "id":      21,   
+        "name":    "Distrito Federal",   
+        "Color":   400 
+    },
+    "22": {  
+        "id":      22,   
+        "name":    "Baja California Sur",   
+        "Color":   400 
+    },
+    "23": {  
+        "id":      23,   
+        "name":    "Michoacán",   
+        "Color":   400 
+    },
+    "24": {  
+        "id":      24,   
+        "name":    "Guerrero",   
+        "Color":   400 
+    },
+    "25": {  
+        "id":      25,   
+        "name":    "Oaxaca",   
+        "Color":   400 
+    },
+    "26": {  
+        "id":      26,   
+        "name":    "Veracruz",   
+        "Color":   400 
+    },
+    "27": {  
+        "id":      27,   
+        "name":    "Tabasco",   
+        "Color":   400 
+    },
+    "28": {  
+        "id":      28,   
+        "name":    "Campeche",   
+        "Color":   400 
+    },
+    "29": {  
+        "id":      29,   
+        "name":    "Chiapas",   
+        "Color":   400 
+    },
+    "30": {  
+        "id":      30,   
+        "name":    "Quintana Roo",   
+        "Color":   400 
+    },
+    "31": {  
+        "id":      31,   
+        "name":    "Yucatán",   
+        "Color":   400 
+    },
+    "32": {  
+        "id":      32,   
+        "name":    "Coahuila",   
+        "Color":   400 
+    }
+}  
