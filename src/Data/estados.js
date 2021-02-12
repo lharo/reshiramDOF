@@ -92,6 +92,10 @@ const estados = [
         name: 'Baja California Sur'
     },
     {
+        id:23,
+        name: "Michoacán"
+    },
+    {
         id: 24,
         name: 'Guerrero'
     },

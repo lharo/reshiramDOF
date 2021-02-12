@@ -1,28 +1,28 @@
+import React, { useState } from "react";
 import Chart from "react-google-charts";
-import Modal from "./Components/Modal";
 import data from "./Data/data";
 import './DataState.json'; 
 import { getNombreEstadoById } from "./Estados/EstadosFunctions";
-import React, { useState } from "react";
+import CustomModal from './Components/CustomModal'
 
+const MexiMap = () => {
 
+  const [stateName, setStateName] = useState('');
+  const [shouldShow, setShouldShow] = useState(false);
 
-  
-  const chartEvents=[{
+    const chartEvents=[{
       eventName: "ready",
       callback: ({ chartWrapper, google }) => {
         const chart = chartWrapper.getChart();
         google.visualization.events.addListener(chart, "select", e => {
           const id = chart.getSelection()[0].row;
           const name = getNombreEstadoById( id );
-          
-          alert(`You clicked on ${ name }`)
-
+          setStateName(name);
+          setShouldShow(true);
+          setShouldShow(false);
         });
       }
-    }
-  ]
-
+    }]
 
   const options={
     region: 'MX',
@@ -31,32 +31,23 @@ import React, { useState } from "react";
     backgroundColor: '#FFFFFF',
     datalessRegionColor: '#eeeeee',
     defaultColor: 'white',
-  
-  }
+  }  
 
-const MexiMap = () => {
-  const [isModalOpen, toggleModal] = useState(false);
   return (
     <>
-      <div id="modal"></div>
-
       <Chart
-      width={'2000px'}
-      height={'900px'}
-      chartType="GeoChart"
-      data={data}
-      options={options}
-      chartEvents={chartEvents}
-     />
-     <button onClick={() => toggleModal(!isModalOpen)}>Open</button>
-      <Modal isOpen={isModalOpen} toggle={toggleModal}>
-        <h1>{chartEvents.name}</h1>
-        <p>fake data .....</p>
-        <button onClick={() => toggleModal(false)}>Close</button>
-      </Modal>
+        width={'1500px'}
+        height={'900px'}
+        chartType="GeoChart"
+        data={data}
+        options={options}
+        chartEvents={chartEvents}
+      />
+
+    <CustomModal name = { stateName } showModal = { shouldShow }/>
+
   </>
   );
 };
-
   
 export default MexiMap;
